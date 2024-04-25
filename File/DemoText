@@ -1,0 +1,119 @@
+Java Fundamentals
+
+Key Skills & Concepts
+* Know the history and philosophy of Java
+* Understand Java’s contribution to the Internet
+* Understand the importance of bytecode
+* Know the Java buzzwords
+* Understand the foundational principles of object-oriented programming
+* Create, compile, and run a simple Java program
+* Use variables
+* Use the if and for control statements
+* Create blocks of code
+* Understand how statements are positioned, indented, and terminated
+* Know the Java keywords
+* Understand the rules for Java identifiers
+The rise of the Internet and the World Wide Web fundamentally reshaped computing. Prior
+to the Web, the cyber landscape was dominated by stand-alone PCs. Today, nearly all
+computers are connected to the Internet. The Internet, itself, was transformed—originally
+offering a convenient way to share files and information. Today it is a vast, distributed
+computing universe. With these changes came a new way to program: Java.
+Java is the preeminent language of the Internet, but it is more than that. Java revolutionized
+programming, changing the way that we think about both the form and the function of a
+program. To be a professional programmer today implies the ability to program in Java—it is
+that important. In the course of this book, you will learn the skills needed to master it.
+The purpose of this chapter is to introduce you to Java, including its history, its design
+philosophy, and several of its most important features. By far, the hardest thing about learning
+a programming language is the fact that no element exists in isolation. Instead, the components
+of the language work in conjunction with each other. This interrelatedness is especially
+pronounced in Java. In fact, it is difficult to discuss one aspect of Java without involving
+others. To help overcome this problem, this chapter provides a brief overview of several Java
+features, including the general form of a Java program, some basic control structures, and
+operators. It does not go into too many details but, rather, concentrates on the general concepts
+common to any Java program.
+
+The Origins of Java
+Computer language innovation is driven forward by two factors: improvements in the art of
+programming and changes in the computing environment. Java is no exception. Building upon
+the rich legacy inherited from C and C++, Java adds refinements and features that reflect the
+current state of the art in programming. Responding to the rise of the online environment, Java
+offers features that streamline programming for a highly distributed architecture.
+Java was conceived by James Gosling, Patrick Naughton, Chris Warth, Ed Frank, and
+Mike Sheridan at Sun Microsystems in 1991. This language was initially called “Oak” but
+was renamed “Java” in 1995. Somewhat surprisingly, the original impetus for Java was not the
+Internet! Instead, the primary motivation was the need for a platform-independent language that
+could be used to create software to be embedded in various consumer electronic devices, such as
+toasters, microwave ovens, and remote controls. As you can probably guess, many different types
+of CPUs are used as controllers. The trouble was that (at that time) most computer languages
+were designed to be compiled for a specific target. For example, consider C++.
+Although it was possible to compile a C++ program for just about any type of CPU, to do
+so required a full C++ compiler targeted for that CPU. The problem, however, is that compilers
+are expensive and time-consuming to create. In an attempt to find a better solution, Gosling and
+others worked on a portable, cross-platform language that could produce code that would
+run on a variety of CPUs under differing environments. This effort ultimately led to the creation
+of Java.
+About the time that the details of Java were being worked out, a second, and ultimately
+more important, factor emerged that would play a crucial role in the future of Java. This
+second force was, of course, the World Wide Web. Had the Web not taken shape at about the
+same time that Java was being implemented, Java might have remained a useful but obscure
+language for programming consumer electronics. However, with the emergence of the Web,
+Java was propelled to the forefront of computer language design, because the Web, too,
+demanded portable programs.
+Most programmers learn early in their careers that portable programs are as elusive as they
+are desirable. While the quest for a way to create efficient, portable (platform-independent)
+programs is nearly as old as the discipline of programming itself, it had taken a back seat to
+other, more pressing problems. However, with the advent of the Internet and the Web, the old
+problem of portability returned with a vengeance. After all, the Internet consists of a diverse,
+distributed universe populated with many types of computers, operating systems, and CPUs.
+What was once an irritating but a low-priority problem had become a high-profile
+necessity. By 1993, it became obvious to members of the Java design team that the problems of
+portability frequently encountered when creating code for embedded controllers are also found
+when attempting to create code for the Internet. This realization caused the focus of Java to
+switch from consumer electronics to Internet programming. So, while it was the desire for an
+architecture-neutral programming language that provided the initial spark, it was the Internet
+that ultimately led to Java’s large-scale success.
+
+How Java Relates to C and C++
+Java is directly related to both C and C++. Java inherits its syntax from C. Its object model
+is adapted from C++. Java’s relationship with C and C++ is important for several reasons.
+First, many programmers are familiar with the C/C++ syntax. This makes it easy for a C/C++
+programmer to learn Java and, conversely, for a Java programmer to learn C/C++.
+Second, Java’s designers did not “reinvent the wheel.” Instead, they further refined an
+already highly successful programming paradigm. The modern age of programming began
+with C. It moved to C++, and now to Java. By inheriting and building upon that rich heritage,
+Java provides a powerful, logically consistent programming environment that takes the best of
+the past and adds new features required by the online environment. Perhaps most important,
+because of their similarities, C, C++, and Java define a common, conceptual framework for
+the professional programmer. Programmers do not face major rifts when switching from one
+language to another.
+One of the central design philosophies of both C and C++ is that the programmer is in
+charge! Java also inherits this philosophy. Except for those constraints imposed by the Internet
+environment, Java gives you, the programmer, full control. If you program well, your programs
+reflect it. If you program poorly, your programs reflect that, too. Put differently, Java is not
+a language with training wheels. It is a language for professional programmers.
+Java has one other attribute in common with C and C++: it was designed, tested, and refined by
+real, working programmers. It is a language grounded in the needs and experiences of the people
+who devised it. There is no better way to produce a top-flight professional programming language.
+Because of the similarities between Java and C++, especially their support for object oriented programming, it is tempting to think of Java as simply the “Internet version of
+C++.” However, to do so would be a mistake. Java has significant practical and philosophical
+differences. Although Java was influenced by C++, it is not an enhanced version of C++.
+For example, it is neither upwardly nor downwardly compatible with C++. Of course, the
+similarities with C++ are significant, and if you are a C++ programmer, you will feel right at
+home with Java. Another point: Java was not designed to replace C++. Java was designed to
+solve a certain set of problems. C++ was designed to solve a different set of problems. They
+will coexist for many years to come.
+
+How Java Relates to C#
+A few years after the creation of Java, Microsoft developed the C# language. This is important
+because C# is closely related to Java. In fact, many of C#’s features directly parallel Java. Both
+Java and C# share the same general C++-style syntax, support distributed programming,
+and utilize the same object model. There are, of course, differences between Java and C#, but
+the overall “look and feel” of these languages is very similar. This means that if you already
+know C#, then learning Java will be especially easy. Conversely, if C# is in your future, then
+your knowledge of Java will come in handy.
+Given the similarity between Java and C#, one might naturally ask, “Will C# replace Java?”
+The answer is No. Java and C# are optimized for two different types of computing environments.
+Just as C++ and Java will coexist for a long time to come, so will C# and Java.
+
+Java’s Contribution to the Internet
+The Internet helped catapult Java to the forefront of programming, and Java, in turn, "PLEASE END HERE!"
